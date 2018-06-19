@@ -2,10 +2,10 @@ Setup Twitter keys
 import twitter
 import json
 #api = twitter.Api(consumer_key='consumer_key',consumer_secret='consumer_secret',access_token_key='access_token',access_token_secret='access_token_secret')
-api = twitter.Api(consumer_key='FxdIcqx2qgGO7irzTdabgRJm7',
-                      consumer_secret='hCPIwHTVBm9Y5mkryL3dSRapY7b40E1P52ZJdfqyGSEK6aJlDk',
-                      access_token_key='55901155-jic21fdO1KNrpqIr3nabIIuK3An2bm9P5rzX5CUlK',
-                      access_token_secret='V17gMJDGSHfpyX266kwgUj3ReqUObMwbebpmxcxCagvQM')
+api = twitter.Api(consumer_key='XXXXXXXXXXXXXXXXXXXXXXXXXXXX',
+                      consumer_secret='XXXXXXXXXXXXXXXXXXXXXXXXXXXX',
+                      access_token_key='XXXXXXXXXXXXXXXXXXXXXXXXXXXX',
+                      access_token_secret='XXXXXXXXXXXXXXXXXXXXXXXXXXXX')
 print(api.VerifyCredentials())
 {"created_at": "Sat Jul 11 19:01:38 +0000 2009", "default_profile": true, "default_profile_image": true, "followers_count": 7, "friends_count": 22, "id": 55901155, "id_str": "55901155", "lang": "en", "location": "New York, NY", "name": "Sanket Ninawe", "profile_background_color": "C0DEED", "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png", "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png", "profile_image_url": "http://abs.twimg.com/sticky/default_profile_images/default_profile_normal.png", "profile_image_url_https": "https://abs.twimg.com/sticky/default_profile_images/default_profile_normal.png", "profile_link_color": "1DA1F2", "profile_sidebar_border_color": "C0DEED", "profile_sidebar_fill_color": "DDEEF6", "profile_text_color": "333333", "profile_use_background_image": true, "screen_name": "sanketninawe"}
 #1 Streaming API with geolocation
